@@ -1,0 +1,87 @@
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+
+.link_logo {
+  display: inline-block;
+}
+/* HEADER */
+.header {
+  height: 10vh;
+  background-color: brown;
+}
+
+/* BANNER */
+.Home-wrapper {
+  background-color: #fff;
+  height: calc(100vh - 20vh);
+  background: url(../Resources/images/banner1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.bannerimg {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  height: 10vh;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-discl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+  margin: 0 10px;
+}
+
+/* ARTIST COMPONENT */
+.loading {
+  background-color: #fff;
+  height: calc(100vh - 20vh);
+  display: flex;
+}
+
+.load {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.artist_wrapper {
+}
+
+/* ALBUM COMPONENT */
+.album-title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.album-post {
+  margin-left: 20%;
+}
+
+.icon:hover {
+  color: coral !important;
+}
